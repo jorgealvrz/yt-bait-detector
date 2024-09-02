@@ -6,6 +6,11 @@ Tired of clickbait YouTube videos? `yt-bait-detector` is a simple tool to detect
 python main.py --url https://www.youtube.com/watch?v=dQw4w9WgXcQ
 ```
 
+## TODO
+- [ ] Add a way to detect potential clickbait in the video capture
+    - [ ] Use a VLM to detect clickbait in the video capture
+- [ ] Add a way to detect potential clickbait in the video title
+
 ## License
 
 MIT
