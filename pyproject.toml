@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "yt-bait-detector"
+version = "0.1.0"
+description = ""
+authors = ["Jorge Álvarez <jorgealro1997@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+google-api-python-client = "^2.143.0"
+google-auth-oauthlib = "^1.2.1"
+requests = "^2.32.3"
+beautifulsoup4 = "^4.12.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
